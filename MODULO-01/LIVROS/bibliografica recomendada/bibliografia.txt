@@ -1,0 +1,19 @@
+Bibliografia recomendada.
+
+MDN - mozilla developer network
+W3C - world winde web consortiun (referencia oficial)
+Whatwg loving standard
+W3SCHOOLS
+//*************************************************************************************************************************
+
+HTML5- MARK PILGRIM
+CSS- ERIC MEYER
+FLEXBOX IN CSS- ESTELLE WEY
+GRID LAYOUT IN CSS- ERIK MEYER.
+
+HTML5 E CSS3-GUIA PRATICO E MANUAL
+crie seu prpios site
+
+
+
+ 
