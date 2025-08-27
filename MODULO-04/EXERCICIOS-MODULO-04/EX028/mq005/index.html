@@ -6,12 +6,13 @@
     <title>Midia Query</title>
     <link rel="stylesheet" href="fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/midia-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
-        <i id="burguer" class="fa-solid fa-bars"></i>
-        <menu>
+        <i id="burguer" class="fa-solid fa-bars" onclick="clickMenu()"></i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">opção1</a></li>
                 <li><a href="#">opção2</a></li>
@@ -36,5 +37,23 @@
             </p>
         </article>
     </main>
+
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 769){
+                itens.style.display = 'block'
+            }else{
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
